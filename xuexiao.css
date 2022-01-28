@@ -1,0 +1,31 @@
+.indexPage___2MHv3 .basicContent___16D2x{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;padding-top:.56rem}
+.indexPage___2MHv3 .basicContent___16D2x .left_div___1LEhP{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}
+.indexPage___2MHv3 .basicContent___16D2x .left_div___1LEhP .name_style___Ydlvb{font-size:.4rem;font-family:PingFang SC;font-weight:500;color:#000;padding-bottom:.2rem;text-align:left}
+.indexPage___2MHv3 .basicContent___16D2x .left_div___1LEhP .basic_style___771eP{display:-webkit-flex;display:-ms-flexbox;display:flex}
+.indexPage___2MHv3 .basicContent___16D2x .left_div___1LEhP .basic_style___771eP .title___1BPl1{font-size:.3rem;font-family:PingFang SC;font-weight:400;color:#000;text-align:left;white-space:nowrap}
+.indexPage___2MHv3 .basicContent___16D2x .left_div___1LEhP .basic_style___771eP .content___2rWTn{font-size:.3rem;font-family:PingFang SC;font-weight:400;color:#000;text-align:left}.indexPage___2MHv3 .basicContent___16D2x .img_div___2PKFm{width:1.6rem}
+.indexPage___2MHv3 .basicContent___16D2x .img_div___2PKFm img{width:1.6rem;height:2.32rem}
+.indexPage___2MHv3 .grewm_content___1uj8r{-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;padding:.46rem;border-radius:.12rem;position:relative;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-justify-content:space-around;-ms-flex-pack:distribute;justify-content:space-around;-webkit-align-items:center;-ms-flex-align:center;align-items:center}
+.indexPage___2MHv3 .grewm_content___1uj8r .waiting___309Xt{position:absolute;top:50%;left:50%;margin:.2rem 0 0 -.2rem}
+.indexPage___2MHv3 .grewm_content___1uj8r .info___3PWCN{position:relative;height:1rem;width:100%;margin-bottom:.3rem;margin-top:-.2rem}
+.indexPage___2MHv3 .grewm_content___1uj8r .info___3PWCN .time_border___3_exO{width:4.76rem;height:.9rem;padding:.06rem 0;border:.02rem solid hsla(0,0%,100%,.08);text-align:center;font-size:.56rem;font-family:PingFang SC;font-weight:500;color:#fff;border-radius:.42rem;background-color:hsla(0,0%,100%,.08);position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}
+.indexPage___2MHv3 .grewm_content___1uj8r .info___3PWCN .plus___CJDw7{width:4.76rem;height:.9rem;border:.02rem solid #fff;opacity:1;border-radius:.5rem;position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);-webkit-animation:warn___3yrGl 1s infinite;animation:warn___3yrGl 1s infinite}
+
+
+@-webkit-keyframes warn___3yrGl{0%{left:50%;-webkit-transform:translateX(-50%) scale(1);transform:translateX(-50%) scale(1);opacity:1}25%{left:50%;-webkit-transform:translateX(-50%) scale(1.05,1.1);transform:translateX(-50%) scale(1.05,1.1);opacity:.6}50%{left:50%;-webkit-transform:translateX(-50%) scale(1.07,1.2);transform:translateX(-50%) scale(1.07,1.2);opacity:.4}to{left:50%;-webkit-transform:translateX(-50%) scale(1.09,1.3);transform:translateX(-50%) scale(1.09,1.3);opacity:.2}}
+@keyframes warn___3yrGl{0%{left:50%;-webkit-transform:translateX(-50%) scale(1);transform:translateX(-50%) scale(1);opacity:1}25%{left:50%;-webkit-transform:translateX(-50%) scale(1.05,1.1);transform:translateX(-50%) scale(1.05,1.1);opacity:.6}50%{left:50%;-webkit-transform:translateX(-50%) scale(1.07,1.2);transform:translateX(-50%) scale(1.07,1.2);opacity:.4}to{left:50%;-webkit-transform:translateX(-50%) scale(1.09,1.3);transform:translateX(-50%) scale(1.09,1.3);opacity:.2}}
+
+.indexPage___2MHv3 .grewm_content___1uj8r .refresh___2Hjj9{color:#397ef0;font-size:.24rem;text-align:center}
+.indexPage___2MHv3 .grewm_content___1uj8r .blueCharacter___15D1I{font-size:.36rem;font-family:PingFang SC;font-weight:400;color:#fff;text-decoration:underline}
+.indexPage___2MHv3 .grewm_content___1uj8r .des_content___sXe7n{font-size:.3rem;font-family:PingFang SC;font-weight:400;color:#fff;text-align:left;margin-bottom:.12rem}
+.indexPage___2MHv3 .grewm_content___1uj8r .textOverFlow___3yd4l{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2}
+.indexPage___2MHv3 .sidebarStyle___1fjCl{height:100%;padding:.3rem;overflow:auto}.indexPage___2MHv3 .sidebarStyle___1fjCl .drawer_title___1Bjco{font-size:.34rem;text-align:center;height:.52rem;margin-bottom:.2rem}
+.indexPage___2MHv3 .sidebarStyle___1fjCl .drawer_title___1Bjco .icon_style___1x69b{color:#e3e3e3;float:right;margin-top:.04rem}
+.indexPage___2MHv3 .sidebarStyle___1fjCl .drawer_content___1R5xr{height:calc(100% - .72rem);overflow:auto;font-family:PingFang SC;font-weight:400;color:#000;font-size:.3rem}
+.indexPage___2MHv3 .sidebarStyle___1fjCl .drawer_content___1R5xr span{font-size:.24rem;font-weight:400;color:rgba(0,0,0,.45)}
+.indexPage___2MHv3 .sidebarStyle___1fjCl .drawer_content___1R5xr::-webkit-scrollbar{width:0;height:0;display:none}
+.indexPage___2MHv3 .sidebarStyle___1fjCl .drawer_content___1R5xr .textOverFlow___3yd4l{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2}
+.indexPage___2MHv3 .sidebarStyle___1fjCl .drawer_content___1R5xr .qjlx___1JsXt{position:absolute;top:0;right:0;width:1.8rem;height:.5rem;border-bottom-left-radius:.3rem;text-align:right}
+.indexPage___2MHv3 .sidebarStyle___1fjCl .drawer_content___1R5xr .tips___3IJIq{font-size:.3rem;font-family:PingFang SC;font-weight:400;padding:.1rem .1rem 0 0;color:#000}
+.indexPage___2MHv3 .am-navbar-left-icon{color:#fff}.indexPage___2MHv3 .am-navbar-light .am-navbar-title{color:#fff}.indexPage___2MHv3 .am-card-body{font-size:.3rem;font-family:PingFang SC;font-weight:400;color:#fff}
+.indexPage___2MHv3 .page-header-navbar .am-navbar{background-color:#f5f7fa}.indexPage___2MHv3 .page-header-navbar .am-navbar .am-navbar-title{font-size:.36rem;font-family:PingFang SC;font-weight:600;color:#000}
