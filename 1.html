@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>请假出校门</title>
+    <script>
+    window.onload = function() {
+    var xueyuan=document.getElementById('xueyuan')
+    var zhuanye=document.getElementById('zhuanye')
+    var banji=document.getElementById('banji')
+    var img=document.getElementById('img')
+    var name=document.getElementById('name')
+    var imgarr=['lyy.jpg','wyy.jpg','wsx.jpg','luyi.jpg']
+    var namearr=['陆仪妍','吴依芸','魏诗轩','陆懿']
+    
+    var index=0
+    img.onclick = function() {
+        
+        img.src=imgarr[index]
+        name.innerHTML=namearr[index]
+        index++
+        if(index==3){
+            xueyuan.innerHTML='学院：珠宝系'
+            zhuanye.innerHTML = '专业：宝玉石鉴定与加工'
+            banji.innerHTML = `班级：全日制2020宝玉石鉴定与加工2<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  班`                              
+        }
+        else{
+            xueyuan.innerHTML='学院：教育学院'
+            zhuanye.innerHTML = '专业：学前教育'
+            banji.innerHTML = '班级：全日制2020学前教育4班'
+        }
+        if(index==4){
+            index = 0;
+        }
+    }
+    }
+    function showTime(){
+        nowtime=new Date();
+        year=nowtime.getFullYear();
+        month=nowtime.getMonth()+1;
+        if(month<10){
+            month='0'+month
+        }
+        days=nowtime.getDate();
+        if(days<10){
+            days='0'+days
+        }
+        hours=nowtime.getHours();
+        if(hours<10){
+            hours='0'+hours
+        }
+        minutes=nowtime.getMinutes();
+        if(minutes<10){
+            minutes='0'+minutes
+        }
+        second=nowtime.getSeconds();
+        if(second<10){
+            second='0'+second
+        }
+    
+        document.getElementById("mytime").innerText= month+'-' +days+' '+hours+':'+minutes+':'+second;
+    }
+        setInterval("showTime()",1000);
+        /*var a =prompt('请输入访问密码')
+        var password=8888;
+        if (a==password){
+            alert('密码输入正确')
+        }
+        else{
+            window.history.go(-1);
+            alert('密码输错自动返回主页')
+        }*/
+        
+        </script>
+        
+    <style>
+        
+    
+
+        
+    </style>
+    <link rel="stylesheet" href="css/school.css">
+    
+</head>
+<body>
+
+    <div class="bigbox">
+        <div class="topbox">
+            <div class="name">
+                <div id="name" style="font-weight: 500;" >陆懿</div>
+                <div style="font-weight: 400;" id="xueyuan" >学院：教育学院</div>
+                <div style="font-weight: 400;" id="zhuanye" >专业：学前教育</div>
+                <div style="font-weight: 400;" id="banji" >班级：全日制2020学前教育4班</div>
+                <img id="img" src="luyi.jpg" alt="">
+            </div>
+            
+        </div>
+        <div class="bluebox">
+            <div class="radius" id="mytime"></div>
+            <div class="scale"></div>
+            <div class="ewm"><img src="二维码1.jpg" alt=""></div>
+        </div>
+        <div class="fbox">
+            <div >请假事由：回家</div>
+            <textarea name="time" id="time" cols="40" rows="2">请假时长：2022-12-31 00:00～2022-00-00 23:59</textarea>
+            <a href="">历史请假记录</a>
+        </div>
+        
+    </div>
+</body>
+</html>
