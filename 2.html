@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload=function(){
+        var bluebox=document.getElementById('bluebox')
+        var xueyuan=document.getElementById('xueyuan')
+        var zhuanye=document.getElementById('zhuanye')
+        var banji=document.getElementById('banji')
+        var img=document.getElementById('img')
+        var name=document.getElementById('name')
+        name.style.top='-26px'
+        xueyuan.style.top='-20px'
+        zhuanye.style.top = '-20px'
+        banji.style.top='61px' 
+        bluebox.style.top=bluebox.offsetTop+4+'px'
+        
+
+
+
+        }
+        function showTime(){
+        nowtime=new Date();
+        year=nowtime.getFullYear();
+        month=nowtime.getMonth()+1;
+        if(month<10){
+            month='0'+month
+        }
+        days=nowtime.getDate();
+        if(days<10){
+            days='0'+days
+        }
+        hours=nowtime.getHours();
+        if(hours<10){
+            hours='0'+hours
+        }
+        minutes=nowtime.getMinutes();
+        if(minutes<10){
+            minutes='0'+minutes
+        }
+        second=nowtime.getSeconds();
+        if(second<10){
+            second='0'+second
+        }
+    
+        document.getElementById("mytime").innerText= month+'-' +days+' '+hours+':'+minutes+':'+second;
+    }
+        setInterval("showTime()",1000);
+    </script>
+    <link rel="stylesheet" href="css/school.css">
+</head>
+<body>
+    <div class="bigbox">
+        <div class="topbox">
+            <div class="name">
+                <div id="name" style="font-weight: 500;" >张嘉盛</div>
+                <div style="font-weight: 400;position: relative;" id="xueyuan"  >学院：大唐信息技术学院</div>
+                <div style="font-weight: 400; position: relative;" id="zhuanye" >专业：物联网应用技术</div>
+                <div style="font-weight: 400; height: 39px;position: absolute;" id="banji" class="ban">班级：全日制(中高)2020物联网应用技<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp术2班</div>
+                <img id="img" src="zjs.jpg" alt="">
+            </div>
+            
+        </div>
+        <div class="bluebox" id="bluebox">
+            <div class="radius" id="mytime"></div>
+            <div class="scale"></div>
+            <div class="ewm"><img src="二维码1.jpg" alt=""></div>
+        </div>
+        <div class="fbox">
+            <div >请假事由：回家</div>
+            <textarea name="time" id="time" cols="40" rows="2">请假时长：2022-12-31 00:00～2022-00-00 23:59</textarea>
+            <a href="">历史请假记录</a>
+        </div>
+        
+    </div>
+</body>
+</html>
